@@ -5,7 +5,7 @@ excerpt: "<img src='/images/projects/glove/glove_concept.png' alt=''>"
 collection: projects
 order_number: 20
 header: 
-  og_image: "projects/glove/glove_concept.png"
+  og_image: "glove/glove_concept.png"
 ---
 
 # Gesture Recognition using Smart Glove
