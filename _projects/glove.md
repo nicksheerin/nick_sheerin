@@ -9,10 +9,14 @@ order_number: 20
 # Gesture Recognition using Smart Glove
 
 <div align="center">
-<img src="/images/projects/glove/glove_concept.png">
+<img src="images/projects/glove/glove_concept.png">
 </div>
 
 This project was a collaboration between 4 students: Dawit Lee, Jared Li, Oludotun Ode, and myself. We worked on this final project for ECE 8833: Biomedical Sensing Systems in the Fall of 2017. The project entailed us utilizing biomedical instrumentation that could be used to solve a real problem. We ended up choosing to create a [“smart glove”](https://youtu.be/maCvKXfcnyE) that could take in certain gestures and display them through an app to communicate effectively with those with certain hearing/speech pathologies. 
+
+<div align="center">
+<img src="glove/glove_concept.png">
+</div>
 
 ## Overall Summary
 
