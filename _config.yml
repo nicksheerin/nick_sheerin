@@ -133,8 +133,6 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
-  - .Rproj.user
-  - _source
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
@@ -186,7 +184,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  research:
+  projects:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -232,10 +230,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _research
+  # _projects
   - scope:
       path: ""
-      type: research
+      type: projects
     values:
       layout: single
       author_profile: true
@@ -260,7 +258,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
