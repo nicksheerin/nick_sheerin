@@ -1,17 +1,17 @@
 ---
 title: "Intent Recognition"
 layout: single-portfolio
-excerpt: "<img src='/images/projects/intent/dissertation.png' alt=''>"
+excerpt: "<img src='/images/projects/dissertation.png' alt=''>"
 collection: projects
 order_number: 10
 header: 
-  og_image: "intent/dissertation.png"
+  og_image: "projects/dissertation.png"
 ---
 
 # Improving Intelligence of Robotic Lower-Limb Prostheses to Enhance Mobility for Individuals with Limn Loss
 
 <div align="center">
-<img src="../images/projects/intent/dissertation.png">
+<img src="../images/projects/dissertation.png">
 </div>
 
 ## Overall Summary
@@ -21,7 +21,7 @@ The field of wearable robotics is an emerging field that seeks to create smarter
 Here is also a link to my [dissertation defense.](https://www.youtube.com/watch?v=rJzv68i8Mf4)
 
 <div align="center">
-<img src="../images/projects/intent/legs.png" width = "50%">
+<img src="../images/projects/legs.png" width = "50%">
 </div>
 
 ## General Overview
@@ -31,7 +31,7 @@ In order for robotic technology to go from research lab settings to community us
 ## Control Paradigm
 
 <div align="center">
-<img src="../images/projects/intent/control_flow.png">
+<img src="../images/projects/control_flow.png">
 </div>
 
 The control of these devices is critical to the deployment of these devices in real-world situations. Typically, the control architecture can be categorized into 3 different tiers: high, mid, and low level controllers. The high-level controller is concerned with detecting user intent  — such as walking in different modes or estimating other environmental variables such as walking speed or ground slope angle (focus on my dissertation). This informs the mid-level controller which is responsible for generating the desired torque profiles. It uses an impedance control law that has tunable parameters coupled with a finite state machine (FSM) at each joint. We can break down the cyclic behavior of walking into 4 distinct phases, where each phase has adjustable parameters. Lastly, the low-level controller is responsible for matching the desired torque and actual torque outputted by our actuators.
@@ -52,5 +52,5 @@ The [video](https://youtube.com/shorts/t9WFBW-oOTE?feature=share) shows one of t
 I cannot thank all the subjects enough for participating in our studies over the years and all the commitment and patience you gave us!
 
 <div align="center">
-<img src="../images/projects/intent/subjects2.png">
+<img src="../images/projects/subjects2.png">
 </div>
