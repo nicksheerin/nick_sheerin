@@ -8,23 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a data scientist applying machine learning tools and causal
-inference techniques to remote sensing data. I am also an affiliated
-researcher with the [Data-driven Analysis of Peace Project](https://dapp-lab.org)
-and a research collaborator with the 
-[Research on International Policy Implementation Lab](https://bridgingthegapproject.org/ripil).
+I currently work as a consultant for GameChanger Analytics, where I am working in the role of an **Algorithm Development Engineer**. My primary interests are in the field of mechatronics, wearable robotics, biomechanics,machine learning, and data science. I am curious and love to learn about new topics and technology.
 
-I earned my Ph.D in Political Science from the
-[University *of* North Carolina *at* Chapel Hill](https://www.unc.edu) and my
-B.A. in Political Science from [Haverford College](https://www.haverford.edu).
-My academic work has been [published](publications) or is forthcoming in
-*International Studies Quarterly*, *Conflict Management and Peace Science*,
-*Political Science Research and Methods*, and *PS: Political Science & Politics*,
-among other outlets. This [research](research) explores the causes and
-consequences of political violence using a broad variety of methods such as
-latent variable models, geospatial analysis, and big data. While primarily
-focused on civil conflict, it also examines contentious political phenomena
-including terrorism and economic statecraft, and develops new measures of
-institutions in international relations. I have [teaching](teaching) experience
-in both quantitative methodology and international relations, and am a certified
-instructor with [The Carpentries](https://carpentries.org).
+I received my **Ph.D. in Mechanical Engineering (Specialization: Mechatronics & Control)** from Georgia Institute of Technology, as a member in the [Exoskeleton and Prosthetic Intelligent Controls (EPIC) Lab](https://www.epic.gatech.edu/). My doctoral studies focused on developing intelligent controllers for powered robotic prostheses and exoskeletons for individuals with gait impairments. I utilized embedded sensor & microprocessor technology paired with machine learning and sensor fusion to improve robustness and intelligence of these devices in real time. 
+
+<!-- I also offer tutoring and consulting services — please contact me if you would like to discuss potential services, partnerships, or collaborations. -->
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<q>**The mindset isn’t about seeking a result — it’s more about the process of getting to that result. It’s about the journey and the approach. It’s a way of life. I do think that it’s important, in all endeavors, to have that mentality!**</q> &#8211; Kobe Bryant
+
