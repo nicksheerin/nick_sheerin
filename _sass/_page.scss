@@ -16,6 +16,7 @@
   }
 }
 
+// https://github.com/mmistakes/minimal-mistakes/issues/384 - for ref in future
 .page {
   @include breakpoint($large) {
     @include span(11 of 12 last);
