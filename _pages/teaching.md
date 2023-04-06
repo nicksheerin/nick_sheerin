@@ -20,9 +20,8 @@ At Georgia Tech I was a TA for this course that introduced students to understan
 
 <img align="right" width="25%" src="../images/teaching/prosthesis_sit.png">
 
-At Georgia Tech I was a graduate student mentor for the Vertically Integrated Projects (VIP) program. Specifically, I led the powered prosthesis team for ~ 5 years. I was able to mentor over 75 students over my PhD career. I taught students each semester with design, control, signal processing, machine learning, and evaluation of our powered prosthetic devices. Specifically my team was able to win 1st place at the campus-wide, regional, & global 2020 VIP Consortium Innovation Competition over the span of a couple years. The winning video can be found [here](https://www.youtube.com/watch?v=Fic5vz3W6CI&t=2s).
+At Georgia Tech I was a graduate student mentor for the Vertically Integrated Projects (VIP) program. Specifically, I led the powered prosthesis team for ~5.5 years. I was able to mentor over 75 students over my Ph.D. career. I taught students each semester with design, control, signal processing, machine learning, and evaluation of our powered prosthetic devices. Specifically my team was able to win 1<sup>st</sup> place at the campus-wide, regional, & global 2020 VIP Consortium Innovation Competition over the span of a couple years. The winning video can be found [here](https://www.youtube.com/watch?v=Fic5vz3W6CI&t=2s).
 
-&nbsp;
 &nbsp;
 &nbsp;
 
@@ -38,9 +37,9 @@ We had high school students from all over Atlanta participate in the first annua
 
 ## NSF Sure Robotics Program
 
-<img align="right" width="35%" src="../images/teaching/sure_2019_winners.png">
+<img align="right" width="33%" src="../images/teaching/sure_2019_winners.png">
 
-During each summer of 2018 and 2019, I was able to work with one highly motivated individual interested in engineering and science for an immersive 10 week summer research program. The two research projects I mentored on were “Exploring Techniques for Detecting Intent Recognition for a Powered Knee and Ankle Prosthesis” led by Divya Chowbey and ” Feasibility for Proportional Electromyographic Control of a Knee and Ankle Prosthetic” led by Alex Eichinger-Wiese.
+During each summer of 2018 and 2019, I was able to work with one highly motivated individual interested in engineering and science for an immersive 10 week summer research program. The two research projects I mentored on were “Exploring Techniques for Detecting Intent Recognition for a Powered Knee and Ankle Prosthesis” led by Divya Chowbey and "Feasibility for Proportional Electromyographic Control of a Knee and Ankle Prosthetic” led by Alex Eichinger-Wiese.
 
 ## NMT LLC Robotics Coach
 
