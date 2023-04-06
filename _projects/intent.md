@@ -1,7 +1,7 @@
 ---
 title: "Intent Recognition"
 layout: single-portfolio
-excerpt: "<img src='/images/projects/dissertation.png' alt=''>"
+excerpt: "<img src='../images/projects/dissertation.png' alt=''>"
 collection: projects
 order_number: 10
 header: 
@@ -52,5 +52,5 @@ The [video](https://youtube.com/shorts/t9WFBW-oOTE?feature=share) shows one of t
 I cannot thank all the subjects enough for participating in our studies over the years and all the commitment and patience you gave us!
 
 <div align="center">
-<img src="/images/projects/subjects2.png" style="border: 3px solid  gray;">
+<img src="../images/projects/subjects2.png" style="border: 3px solid  gray;">
 </div>
