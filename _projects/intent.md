@@ -4,8 +4,6 @@ layout: single-portfolio
 excerpt: "<img src='../images/projects/intent/dissertation.png' alt=''>"
 collection: projects
 order_number: 10
-# header: 
-#   og_image: "projects/intent/dissertation.png"
 ---
 
 # Improving Intelligence of Robotic Lower-Limb Prostheses to Enhance Mobility for Individuals with Limn Loss

@@ -3,8 +3,6 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
-header:
-  og_image: "projects/dissertation.png"
 ---
 
 Here is a list of projects I have completed / currently working on.
