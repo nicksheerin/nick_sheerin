@@ -1,7 +1,7 @@
 ---
 title: "Intent Recognition"
 layout: single-portfolio
-excerpt: "<img src='images/projects/intent/dissertation.png' alt=''>"
+excerpt: "<img src='/images/projects/intent/dissertation.png' alt=''>"
 collection: projects
 order_number: 10
 header: 
