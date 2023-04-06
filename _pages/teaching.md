@@ -12,13 +12,15 @@ Teaching and sharing my knowledge has always been an amazing and rewarding exper
 <!-- Useful reference -->
 <!-- https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-file-on-github -->
 
-<img align="right" width="30%" src="../images/teaching/prosthesis_w_sub.png">
+<img align="right" width="25%" src="../images/teaching/prosthesis_w_sub.png">
 
 At Georgia Tech I was a TA for this course that introduced students to understanding wearable sensors as well as utilizing machine learning in this domain. The course covered an introduction to the emerging science of human-machine interaction with particular focus on wearable robotic devices for restoration or augmentation of human movement. The course modules also covered basic principles of human neuromechanics and energetics (i.e., the human machine) and gave exposure to the state-of-the-art in mechatronic design of wearable robotic systems. During the workshop, one of my responsibilities was to create a workshop to teach students how to apply machine learning to wearable signals found in lower-limb applications.
 
+&nbsp;
+
 ## VIP Robotic Human Augmentation Team
 
-<img align="right" width="25%" src="../images/teaching/prosthesis_sit.png">
+<img align="right" width="22.5%" src="../images/teaching/prosthesis_sit.png">
 
 At Georgia Tech I was a graduate student mentor for the Vertically Integrated Projects (VIP) program. Specifically, I led the powered prosthesis team for ~5.5 years. I was able to mentor over 75 students over my Ph.D. career. I taught students each semester with design, control, signal processing, machine learning, and evaluation of our powered prosthetic devices. Specifically my team was able to win 1<sup>st</sup> place at the campus-wide, regional, & global 2020 VIP Consortium Innovation Competition over the span of a couple years. The winning video can be found [here](https://www.youtube.com/watch?v=Fic5vz3W6CI&t=2s).
 
