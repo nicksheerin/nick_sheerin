@@ -7,7 +7,7 @@ author_profile: true
 #   og_image: "research/ecdf.png"
 ---
 
-Coming soon!
+Here is a list of projects I have completed / currently working on.
 
 <nbsp>
 
