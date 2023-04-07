@@ -10,6 +10,10 @@ title: "Teaching"
 
 Teaching and sharing my knowledge has always been an amazing and rewarding experience for me. Over the years, I have realized that having the right teacher or mentor can have a really large impact on you! I try to emulate this in my teaching approach and strive to make each experience memorable. I have also tutored many students over the years in math, engineering, and robotics. I want to continue this passion and will strive to provide useful [tutorials/posts](https://kbhakt.github.io/krishan_bhakta//posts/) on this website to learn about new concepts and skills. 
 
+## Data Science Technical Coach
+
+I was able to help me a mentor to help students learn data science concepts over a 2-3 month virtual [bootcamp](https://www.stackeducation.com/) in summer/fall of 2022. The bootcamp covered basic excel fundamentals up to using Python for data exploration, data analysis, and data visualization. My responsibilities included providing support for the students to learn these concepts and advance in a fast-paced environment. 
+
 ## Biomechatronics of Wearable Robotic Systems
 
 <!-- Useful reference -->
