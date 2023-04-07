@@ -19,6 +19,8 @@ This [specialization](https://www.coursera.org/specializations/python) was usefu
 
 ## Complete Guide to Rotations and Transformations
 
+(Received 04/12/22)
+
 This [course](https://www.udemy.com/course/complete-guide-to-rotations-and-transformations/) was nicely layed out and explained the different types of representing attitude ranging from Euler angles to Quaternions. It also discussed how to convert between different reference frames.
 
 ## Sports Performance Analytics Specialization

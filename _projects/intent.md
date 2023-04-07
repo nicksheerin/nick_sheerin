@@ -6,7 +6,7 @@ collection: projects
 order_number: 10
 ---
 
-# Improving Intelligence of Robotic Lower-Limb Prostheses to Enhance Mobility for Individuals with Limn Loss
+# Improving Intelligence of Robotic Lower-Limb Prostheses to Enhance Mobility for Individuals with Limb Loss
 
 <div align="center">
 <img src="../../images/projects/intent/dissertation.png">
