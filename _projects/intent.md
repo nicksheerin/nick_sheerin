@@ -39,9 +39,10 @@ The control of these devices is critical to the deployment of these devices in r
 Over the span of my Ph.D., I have been fortunate enough to publish some findings that can be found [here](https://kbhakt.github.io/krishan_bhakta//publications/). Overall, by conducting multiple studies that looked at offline machine learning analysis of wearable sensors all the way to validating the performance of these powered devices, I hoped to create a framework that would allow others to build upon this work. From all my aims of my dissertation, the main research contributions included:
 
 1) Developing the 1<sup>st</sup> user-independent (IND) real-time intent recognition system for both continuous and discrete estimation
-2) Creating scalable control strategies across common ambulation modes and terrain grades
-3) Performed biomechanical validations of powered prostheses compared to passive devices
 
+2) Creating scalable control strategies across common ambulation modes and terrain grades
+
+3) Performed biomechanical validations of powered prostheses compared to passive devices
 
 The [video](https://youtube.com/shorts/t9WFBW-oOTE?feature=share) shows one of the first times, my team and I were able to implement a real-time intent recognition system for detecting locomotion mode changes embedded onto a Raspberry Pi that controlled the powered prosthesis.
 
