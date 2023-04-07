@@ -14,10 +14,6 @@ order_number: 20
 
 This project was a collaboration between 4 students: Dawit Lee, Jared Li, Oludotun Ode, and myself. We worked on this final project for ECE 8833: Biomedical Sensing Systems in the Fall of 2017. The project entailed us utilizing biomedical instrumentation that could be used to solve a real problem. We ended up choosing to create a [“smart glove”](https://youtu.be/maCvKXfcnyE) that could take in certain gestures and display them through an app to communicate effectively with those with certain hearing/speech pathologies. 
 
-<div align="center">
-<img src="../../images/projects/glove/glove_concept.png">
-</div>
-
 ## Overall Summary
 
 Effective communication is an important facet of daily life. Unfortunately, this skill is made difficult for a large amount of people in the US due to disorders such as deafness. If severely afflicted, a person’s only available method of interpersonal communication may be American Sign Language (ASL), which less than one percent of the U.S. understands. This divide in communication between the deaf and the rest of the population can be bridged with a device that is portable, easy to use, and is able to translate basic gestures and ASL into text. Many previous devices in this field often involve cumbersome cameras, data processing that can only be done on a desktop, and gloves that use complicated sensors, which make the device difficult to use and understand. We wanted to explore a device that could improve on all of these factors by using a lightweight glove system with few sensors that would be powered by a simple power bank.
@@ -53,11 +49,11 @@ There were multiple results collected. The first stage was to be able to disting
 We were able to create a “smart glove” that could distinguish between different gestures using machine learning and wearable sensors. Some limitations of this project included: only testing with 1-2 individuals when collecting the training data, and picking a set of distinct gestures to classify. Future work could expand at collecting more data to make a more generalizable model to novel subjects as well as expanding the number of different gestures that could be recognized. 
 
 ## References
-[1] Adafruit.com. SpectraSymbol Flex Sensor 2 inch datasheet. [Online]. Available: HTTPS://CDN-SHOP.ADAFRUIT.COM/DATASHEETS/SPECTRAFLEX2INCH.PDF
+[1] Adafruit.com. Short Flex Sensor [ID#1070](https://www.adafruit.com/product/1070#technical-details)
 
-[2] Adafruit.com. BNO055 Absolute Orientation Sensor. [Online]. Available: HTTPS://LEARN.ADAFRUIT.COM/ADAFRUIT-BNO055-ABSOLUTE-ORIENTATION-SENSOR/OVERVIEW
+[2] Adafruit.com. [BNO055 Absolute Orientation Sensor](https://www.adafruit.com/product/2472)
 
-[3] https://www.tensorflow.org/lite
+[3] [https://www.tensorflow.org/lite](https://www.tensorflow.org/lite)
 
 
 
