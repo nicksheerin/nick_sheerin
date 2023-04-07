@@ -9,13 +9,13 @@ order_number: 20
 # Gesture Recognition using Smart Glove
 
 <div align="center">
-<img src="images/projects/glove/glove_concept.png">
+<img src="../../images/projects/glove/glove_concept.png">
 </div>
 
 This project was a collaboration between 4 students: Dawit Lee, Jared Li, Oludotun Ode, and myself. We worked on this final project for ECE 8833: Biomedical Sensing Systems in the Fall of 2017. The project entailed us utilizing biomedical instrumentation that could be used to solve a real problem. We ended up choosing to create a [“smart glove”](https://youtu.be/maCvKXfcnyE) that could take in certain gestures and display them through an app to communicate effectively with those with certain hearing/speech pathologies. 
 
 <div align="center">
-<img src="glove/glove_concept.png">
+<img src="../../images/projects/glove/glove_concept.png">
 </div>
 
 ## Overall Summary
@@ -23,7 +23,7 @@ This project was a collaboration between 4 students: Dawit Lee, Jared Li, Oludot
 Effective communication is an important facet of daily life. Unfortunately, this skill is made difficult for a large amount of people in the US due to disorders such as deafness. If severely afflicted, a person’s only available method of interpersonal communication may be American Sign Language (ASL), which less than one percent of the U.S. understands. This divide in communication between the deaf and the rest of the population can be bridged with a device that is portable, easy to use, and is able to translate basic gestures and ASL into text. Many previous devices in this field often involve cumbersome cameras, data processing that can only be done on a desktop, and gloves that use complicated sensors, which make the device difficult to use and understand. We wanted to explore a device that could improve on all of these factors by using a lightweight glove system with few sensors that would be powered by a simple power bank.
 
 <div align="center">
-<img src="./images/projects/glove/device.png" width = "50%">
+<img src="../../images/projects/glove/device.png" width = "50%">
 </div>
 
 ## System Overview
@@ -33,7 +33,7 @@ The smart glove consisted of two primary sensors: a series of flexible force sen
 ## Circuit Design & Software
 
 <div align="center">
-<img src="../images/projects/glove/flow_chart.png">
+<img src="../../images/projects/glove/flow_chart.png">
 </div>
 
 The entire smart glove was powered using only a 5V power bank plugged directly into the Arduino. All of the sensors (flex sensors, IMU, and Bluetooth module) were routed on a single breadboard and color coded for organizational purposes.  The flex sensors were ported to the analog pins of the Arduino to read a range of values depending on the configuration of the flex sensor. The IMU was read with a I2C interface that read acceleration and Euler angles in the x, y, and z directions. A total of 14 features were captured from the sensors and outputted to the serial monitor, where the Bluetooth module took that data and communicated over to the smartphone.
