@@ -11,6 +11,9 @@ main:
 
   - title: "Posts"
     url: /posts/
+
+  - title: "Certifications"
+    url: /certifications/
     
   - title: "Resume"
     url: /resume/
