@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I currently work as a consultant for GameChanger Analytics, where I am working in the role of an **Algorithm Development Engineer**. My primary interests are in the field of mechatronics, wearable robotics, biomechanics, machine learning, and data science. I am curious and love to learn about new topics and technology.
+I'm currently focused on building software for wearable devices as an **Algorithm Development Engineer** for GameChanger Analytics. My interests are in mechatronics, wearable robotics, biomechanics, machine learning, and data science. I am curious and constantly learning about new topics and technology.
 
-I received my **Ph.D. in Mechanical Engineering (Specialization: Mechatronics & Control)** from Georgia Institute of Technology, as a member in the [Exoskeleton and Prosthetic Intelligent Controls (EPIC) Lab](https://www.epic.gatech.edu/). My doctoral studies focused on developing intelligent controllers for powered robotic prostheses and exoskeletons for individuals with gait impairments. I utilized embedded sensor & microprocessor technology paired with machine learning and sensor fusion to improve robustness and intelligence of these devices in real time. 
+I received my **Ph.D. in Mechanical Engineering (Specialization: Mechatronics & Control)** from the Georgia Institute of Technology, as a member in the [Exoskeleton and Prosthetic Intelligent Controls (EPIC) Lab](https://www.epic.gatech.edu/). My doctoral studies focused on the development of intelligent controllers for powered robotic prostheses and exoskeletons for individuals with gait impairments. This was achieved by utilizing embedded sensor & microprocessor technology paired with machine learning and sensor fusion to improve robustness and intelligence of these devices in real time. 
 
 <!-- I also offer tutoring and consulting services — please contact me if you would like to discuss potential services, partnerships, or collaborations. -->
 
