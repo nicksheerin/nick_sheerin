@@ -17,7 +17,9 @@ order_number: 10
 The field of wearable robotics is an emerging field that seeks to create smarter and intuitive devices that can assist users improve their overall quality of life. Specifically, individuals with lower limb amputation tend to have significantly impaired mobility and asymmetric gait patterns that result in increased energy expenditure than able-bodied individuals over a variety of tasks. Unfortunately, most of the commercial devices are passive and lack the ability to easily adapt to changing environmental contexts. Powered prostheses have shown promise to help restore the necessary power needed to walk in common ambulatory tasks. However, there is a need to infer/detect the user’s movement to appropriately provide seamless and natural assistance. To achieve this behavior, a better understanding is required of adding intelligence to powered prostheses. My [dissertation](https://www.youtube.com/watch?v=rJzv68i8Mf4) focused on three key research objectives: 
 
 1) Development & enhancement of offline intent recognition systems for both classification and regression tasks using embedded prosthetic mechanical sensors and machine learning
+
 2) Deployment of intelligent controllers in real-time to directly modulate assistive torque in a knee and ankle prosthetic device
+
 3) Quantification of the biomechanical and clinical effects of a powered prosthesis compared to a passive device. 
 
 Through multiple research studies & publications, we showed that powered prostheses could better enhance mobility for individuals with transfemoral amputation and was a step forward towards clinical acceptance.
