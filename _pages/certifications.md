@@ -5,6 +5,12 @@ title: "Certifications"
 
 Here are some of my courses I have taken to explore my interests and to gain new skills.
 
+## PyTorch for Deep Learning with Python Bootcamp
+
+(Received 04/19/2023)
+
+This [course](https://www.udemy.com/course/pytorch-for-deep-learning-with-python-bootcamp/) was helfpul to get a broad overview of the capabilities of using PyTorch for different applications ranging from image classification, to forecasting time series and categorical targets using sequenced data.
+
 ## [AWS Certified Cloud Practitioner Foundational](https://www.credly.com/badges/eef56601-b08c-42ce-8bcf-ae0a8e3b4e0a/public_url) 
 
 (Passed Exam on 04/02/2023)
@@ -30,5 +36,7 @@ This [course](https://www.udemy.com/course/complete-guide-to-rotations-and-trans
 This [specialization](https://www.coursera.org/specializations/sports-analytics) was useful to learn how to perform data analysis and develop models to anticipate sport outcomes and metrics.
 
 ## Wharton Online Entrepreneurship Specialization
+
+(Received 11/17/2022)
 
 I was able to complete 4 out of 5 courses needed for this [specialization](https://www.coursera.org/specializations/wharton-entrepreneurship#courses). This was a very good introductory set of materials of understanding the basics of developing and pursuing entrepreneurial opportunities.
