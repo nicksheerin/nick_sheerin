@@ -1,9 +1,9 @@
 ---
-title: "Comparing Metabolic Cost and Muscle Activation for Lower-Body Exoskeletons Across Lifting Tasks (In Review)"
+title: "Comparing Metabolic Cost and Muscle Activation for Lower-Body Exoskeletons Across Lifting Tasks"
 collection: publications
 permalink: /publication/lift_exo
-# link: ''
-# venue: 'Science Robotics: Special Issue on Assistive and Rehabilitation Robots'
-# code: 'https://smartech.gatech.edu/handle/1853/70300'
-# citation: 'J. Camargo, K. Bhakta, J. Maldonado-Contreras, S. Zhou, K. Herrin and A. Young, "OpenSim Model for Biomechanical Analysis with the Open-Source Bionic Leg," 2022 International Symposium on Medical Robotics (ISMR), GA, USA, 2022, pp. 1-6, doi: 10.1109/ISMR48347.2022.9807551.'
+date: 2023-11-03
+venue: 'IEEE Transactions on Medical Robotics and Bionics'
+link: https://ieeexplore.ieee.org/document/10308623
+citation: 'C. Nuesslein et al., "Comparing Metabolic Cost and Muscle Activation for Knee and Back Exoskeletons in Lifting," in IEEE Transactions on Medical Robotics and Bionics, doi: 10.1109/TMRB.2023.3329567.'
 ---

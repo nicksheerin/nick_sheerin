@@ -1,9 +1,9 @@
 ---
-title: "User- and Speed Independent Slope Estimation for Lower-Extremity Wearable Robots (In Review)"
+title: "User- and Speed-Independent Slope Estimation for Lower-Extremity Wearable Robots"
 collection: publications
 permalink: /publication/slope
-# link: ''
-# venue: 'Science Robotics: Special Issue on Assistive and Rehabilitation Robots'
-# code: 'https://smartech.gatech.edu/handle/1853/70300'
-# citation: 'J. Camargo, K. Bhakta, J. Maldonado-Contreras, S. Zhou, K. Herrin and A. Young, "OpenSim Model for Biomechanical Analysis with the Open-Source Bionic Leg," 2022 International Symposium on Medical Robotics (ISMR), GA, USA, 2022, pp. 1-6, doi: 10.1109/ISMR48347.2022.9807551.'
+date: 2023-11-06
+venue: 'Annals of Biomedical Engineering'
+link: https://link.springer.com/article/10.1007/s10439-023-03391-y
+citation: 'Maldonado-Contreras, J.Y., Bhakta, K., Camargo, J. et al. User- and Speed-Independent Slope Estimation for Lower-Extremity Wearable Robots. Ann Biomed Eng (2023). https://doi.org/10.1007/s10439-023-03391-y'
 ---
