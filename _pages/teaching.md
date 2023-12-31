@@ -8,7 +8,7 @@ title: "Teaching"
 <img src="../images/teaching/teaching_banner.png" style="border: 3px solid  gray;">
 </div>
 
-Teaching and sharing my knowledge has always been an amazing and rewarding experience for me. Over the years, I have realized that having the right teacher or mentor can have a really large impact on you! I try to emulate this in my teaching approach and strive to make each experience memorable. I have also tutored many students over the years in math, engineering, and robotics. I want to continue this passion and will strive to provide useful [tutorials/posts](https://kbhakt.github.io/krishan_bhakta//posts/) on this website to learn about new concepts and skills. 
+Teaching and sharing my knowledge has always been an amazing and rewarding experience for me. Over the years, I have realized that having the right teacher or mentor can have a really large impact on you! I try to emulate this in my teaching approach and strive to make each experience memorable. I have also tutored many students over the years in math, engineering, and robotics. I want to continue this passion and will strive to provide useful [tutorials/posts](https://kbhakt.github.io/krishan_bhakta/posts/) on this website to learn about new concepts and skills. 
 
 ## Data Science Technical Coach
 
