@@ -16,11 +16,11 @@ Guide to making a multiple plotting scripts using Python and Bokeh!
 
 I have always wanted a easy to use & basic plotting script when running doing some data analysis or visualization. The most common solution is to use the "matplotlib" python library. Although this library is fairly easy to setup and use, it lacks certain capabilities of making your visualizations look aesthetically pleasing + the added tools of easily navigating a figure. This guide serves as a way to demonstrate a way to create a visualizer where you can dynamically plot signals and understand how signals are changing in real-time. This guide will show you how to create 3 different types of visualizations: static, replaying a static file in pseudo real-time, and in real-time.
 
-## Background
+# Background
 
 In this guide, I will be using some sample data collected from an IMU sensor. An IMU is an inertial measurement unit that measures acceleration, rotation velocities, and sometimes even magnetic fields. When an IMU measures all 3 of these quantities it is commonly referred to as a 9DOF sensor. The data from this sensor was collected while moving the sensor in space around certain axes. You can substitute this data with your own data as needed. 
 
-## Setup
+# Setup
 
 I use the Anaconda ecosystem to handle creating environments for me to do my dev work. Within this environment, I use the following libraries with their corresponding version #'s:
 
@@ -37,9 +37,9 @@ You can use pip3 list to confirm that you have the correct packages installed. *
 
 Sample data can be found downloaded [here!](https://www.dropbox.com/scl/fo/dd8rg701mbarj927ik5c6/h?rlkey=zs93q5ggh6aw6og6bepy3bggf&dl=0)
 
-## Step-by-Step Guide on how the code is developed
+# Step-by-Step Guide on how the code is developed
 
-#### static_visualizer.py
+## static_visualizer.py
 
 1. Import the packages that will be used
 2. Read in the sample data using the pandas library
@@ -113,7 +113,7 @@ tabs = Tabs(tabs = panels)
 show(tabs)
 ```
 
-#### replay_visualizer.py
+## replay_visualizer.py
 
 This script is very similar to the previous example with some minor changes.
 
@@ -212,7 +212,7 @@ curdoc().add_root(tabs)
 curdoc().add_periodic_callback(update, 25)
 ```
 
-#### real_time_visualizer.py
+## real_time_visualizer.py
 
 This script is very similar to the previous example with difference being that data is generated in real-time (in this case emulated with some fake data). This data can be passed if coming in from a serial connection, UDP port, or some other communication protocol. The scope of connecting a sensor in real-time is out of scope of this guide. But this example provides a framework that can be modified for your needs.
 
@@ -309,12 +309,12 @@ curdoc().add_root(tabs)
 curdoc().add_periodic_callback(update, 25)
 ```
 
-## Resources
+# Resources
 
 https://docs.bokeh.org/en/latest/
 
 [Sample Data & Python Scripts](https://www.dropbox.com/scl/fo/dd8rg701mbarj927ik5c6/h?rlkey=zs93q5ggh6aw6og6bepy3bggf&dl=0)
 
-## Contact Me
+# Contact Me
 
 Feel free to send me an email if you have any questions or comments: kbhakta96@gmail.com
