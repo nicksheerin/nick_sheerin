@@ -24,13 +24,16 @@ In this guide, I will be using some sample data collected from an IMU sensor. An
 
 I use the Anaconda ecosystem to handle creating environments for me to do my dev work. Within this environment, I use the following libraries with their corresponding version #'s:
 
-python 3.12.0
+Using Python 3.12.0
+
+```python
 bokeh 3.3.0
 pandas 2.1.2
 numpy 1.26.1
+```
 
 ```python
-pip3 install [package_name]
+pip3 install -r requirements.txt
 ```
 
 You can use pip3 list to confirm that you have the correct packages installed. *Note I use VSCode to run my python files.
@@ -51,7 +54,7 @@ Sample data can be found downloaded [here!](https://www.dropbox.com/scl/fo/dd8rg
 python3 static_visualizer.py
 ```
 
-![](/images/posts/visualizer/static_plot.png)<!-- -->
+<img src="/images/posts/visualizer/static_plot.png" style="display: block; margin: auto;" />
 
 Full code example of <static_visualizer.py>
 ```python
