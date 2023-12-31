@@ -217,10 +217,7 @@ curdoc().add_root(tabs)
 curdoc().add_periodic_callback(update, 25)
 ```
 
-<!-- <div align="center">
-<img src="../../images/posts/visualizer/replay_visualizer.gif" style="border: 3px solid  gray;">
-</div> -->
-![](../../images/../krishan_bhakta/images/posts/visualizer/replay_visualizer.gif)
+![](../../images/posts/visualizer/replay_visualizer.gif)
 
 
 ## real_time_visualizer.py
