@@ -54,7 +54,9 @@ Sample data can be found downloaded [here!](https://www.dropbox.com/scl/fo/dd8rg
 python3 static_visualizer.py
 ```
 
-<img src="/images/posts/visualizer/static_plot.png" style="display: block; margin: auto;" />
+<div align="center">
+<img src="../images/posts/visualizer/static_plot.png" style="border: 3px solid  gray;">
+</div>
 
 Full code example of <static_visualizer.py>
 ```python
