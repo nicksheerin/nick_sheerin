@@ -56,7 +56,7 @@ python3 static_visualizer.py
 ```
 
 <div align="center">
-<img src="../images/posts/visualizer/static_plot.png" style="border: 3px solid  gray;">
+<img src="../../images/posts/visualizer/static_plot.png" style="border: 3px solid  gray;">
 </div>
 
 ```python
