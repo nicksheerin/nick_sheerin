@@ -1,7 +1,7 @@
 ---
 title: 'Creating a Real-Time Plotting Visualizer using Python & Bokeh!'
 date: 2023-12-30
-permalink: /posts/12_30_23_rt_visualizer/
+permalink: /posts/2023/12/rt_visualizer
 excerpt_separator: <!--more-->
 toc: true
 tags:
