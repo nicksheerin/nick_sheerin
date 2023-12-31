@@ -1,7 +1,7 @@
 ---
 title: 'Creating a Real-Time Plotting Visualizer using Python & Bokeh!'
 date: 2023-12-30
-permalink: /posts/2023/12/rt_visualizer/
+permalink: /posts/2023_12_30_visualizer/
 excerpt_separator: <!--more-->
 toc: true
 tags:
@@ -49,7 +49,8 @@ Sample data can be found downloaded [here!](https://www.dropbox.com/scl/fo/dd8rg
 3. Create a function to customize each plot in the same style. This section is where you can modify fonts, labels, legends, locations, and other stylistic choices
 4. Create the plots with figure dimensions, titles, line widths, and what signals will actually be displayed
 5. Arrange the grids to show them in a specific order
-6. Lastly, go ahead and run the python script or manually type in the terminal: 
+6. Lastly, go ahead and run the python script or manually type in the terminal:
+ 
 ```python
 python3 static_visualizer.py
 ```
