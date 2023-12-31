@@ -217,6 +217,12 @@ curdoc().add_root(tabs)
 curdoc().add_periodic_callback(update, 25)
 ```
 
+<!-- <div align="center">
+<img src="../../images/posts/visualizer/replay_visualizer.gif" style="border: 3px solid  gray;">
+</div> -->
+![](../../images/../krishan_bhakta/images/posts/visualizer/replay_visualizer.gif)
+
+
 ## real_time_visualizer.py
 
 This script is very similar to the previous example with difference being that data is generated in real-time (in this case emulated with some fake data). This data can be passed if coming in from a serial connection, UDP port, or some other communication protocol. The scope of connecting a sensor in real-time is out of scope of this guide. But this example provides a framework that can be modified for your needs.
