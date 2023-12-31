@@ -58,7 +58,6 @@ python3 static_visualizer.py
 <img src="../images/posts/visualizer/static_plot.png" style="border: 3px solid  gray;">
 </div>
 
-Full code example of <static_visualizer.py>
 ```python
 
 # Import the necessary libraries
