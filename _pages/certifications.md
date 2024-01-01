@@ -5,6 +5,12 @@ title: "Certifications"
 
 Here are some of my courses I have taken to explore my interests and to gain new skills.
 
+## Intermediate Python3 
+
+(Received 12/31/2023)
+
+This [course](https://www.codecademy.com/learn/learn-intermediate-python-3) was a good way for me to get introduced some more concepts and capabilities in Python. I particularly enjoyed learning more about OOP principles and unit testing, which were directly related to things I needed to implement in some other projects.
+
 ## PyTorch for Deep Learning with Python Bootcamp
 
 (Received 04/19/2023)
