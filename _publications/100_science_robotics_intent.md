@@ -1,5 +1,5 @@
 ---
-title: "Multi-Context, User-Independent, Real-Time Intent Recognition for Powered Lower-Limb Prostheses (In Review)"
+title: Continuous-Context, User-Independent, Real-Time Intent Recognition for Powered Lower-Limb Prostheses (In Review)"
 collection: publications
 permalink: /publication/science_robotics_intent
 # link: ''
