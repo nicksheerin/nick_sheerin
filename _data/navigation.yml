@@ -15,5 +15,5 @@ main:
   - title: "Certifications"
     url: /certifications/
     
-  - title: "Resume"
-    url: /files/KrishanBhakta_Resume.pdf
+  # - title: "Resume"
+  #   url: /files/KrishanBhakta_Resume.pdf
