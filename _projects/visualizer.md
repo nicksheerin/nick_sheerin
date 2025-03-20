@@ -1,7 +1,7 @@
 ---
 title: 'Creating a Real-Time Plotting Visualizer using Python & Bokeh!'
 layout: single-portfolio
-excerpt: "<img src='../images/projects/visualizer/replay_visualizer.gif' alt=''>"
+excerpt: "<img src='../images/projects/visualizer/static_plot.png' alt=''>"
 collection: projects
 order_number: 30
 ---
