@@ -1,5 +1,5 @@
 ---
-title: "Intent Recognition"
+title: "Robotic Prosthesis to Enhance Mobility"
 layout: single-portfolio
 excerpt: "<img src='../images/projects/intent/dissertation.png' alt=''>"
 collection: projects

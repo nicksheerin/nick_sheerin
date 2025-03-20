@@ -5,8 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-Here is a list of projects I have completed / currently working on.
-
 <nbsp>
 
 {% include base_path %}

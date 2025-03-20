@@ -1,5 +1,5 @@
 ---
-title: "Smart Glove"
+title: "Gesture Recognition using Smart Glove"
 layout: single-portfolio
 excerpt: "<img src='../images/projects/glove/glove_concept.png' alt=''>"
 collection: projects
