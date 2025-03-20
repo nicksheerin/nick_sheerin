@@ -1,13 +1,9 @@
 ---
 title: 'Creating a Real-Time Plotting Visualizer using Python & Bokeh!'
-date: 2023-12-30
-permalink: /posts/2023_12_30_visualizer/
-excerpt_separator: <!--more-->
-toc: true
-tags:
-  - bokeh
-  - visualization
-  - real-time
+layout: single-portfolio
+excerpt: "<img src='../images/projects/visualizer/replay_visualizer.gif' alt=''>"
+collection: projects
+order_number: 30
 ---
 
 Guide to making a multiple plotting scripts using Python and Bokeh!
