@@ -52,7 +52,7 @@ python3 static_visualizer.py
 ```
 
 <div align="center">
-<img src="../../images/posts/visualizer/static_plot.png" style="border: 3px solid  gray;">
+<img src="../../images/projects/visualizer/static_plot.png" style="border: 3px solid  gray;">
 </div>
 
 ```python
@@ -213,7 +213,7 @@ curdoc().add_root(tabs)
 curdoc().add_periodic_callback(update, 25)
 ```
 
-![](../../images/posts/visualizer/replay_visualizer.gif)
+![](../../images/projects/visualizer/replay_visualizer.gif)
 
 
 ## real_time_visualizer.py
