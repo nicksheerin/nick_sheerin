@@ -22,7 +22,7 @@ The primary goal was to leverage a pre-trained YOLO model for real-time, frame-b
 4. Generate key analytical metrics, such as calculating player speed and the total distance covered by tracking pixel displacement between frames.
 
 <div align="center">
-  <img src="../../images/projects/vision_soccer/soccer.mp4" width="80%">
+  <img src="../../images/projects/vision_soccer/soccer.gif" width="80%">
 </div>
 
 ## Takeaways
