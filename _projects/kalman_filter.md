@@ -122,6 +122,19 @@ The Kalman filter is recursive because at each cycle it treats the previous post
 
 # 1D Kalman Filter
 
+Work in Progress
+
+# 2D Kalman Filter
+
+Work in Progress
+
+# 3D Kalman Filter
+
+Work in Progress
+
+# Conclusion
+
+Work in Progress
 
 # References
 
