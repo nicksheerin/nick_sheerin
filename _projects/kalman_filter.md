@@ -14,13 +14,15 @@ This project explores building the intuition behind the Kalman Filter and explor
 
 # Table of Contents
 
-1) Overall Summary
-2) Basic Terminology & Equations
-3) 1D Kalman Filter
-4) 2D Kalman Filter
-5) 3D Kalman Filter
-6) Conclusion
-7) References
+- [Table of Contents](#table-of-contents)
+- [Overall Summary](#overall-summary)
+- [Basic Terminology \& Equations](#basic-terminology--equations)
+  - [Quick Recap](#quick-recap)
+- [1D Kalman Filter](#1d-kalman-filter)
+- [2D Kalman Filter](#2d-kalman-filter)
+- [3D Kalman Filter](#3d-kalman-filter)
+- [Conclusion](#conclusion)
+- [References](#references)
 
 # Overall Summary
 
@@ -39,9 +41,13 @@ Now this might seem complicated right now, but I will try to build the intuition
 There are a total of 5 equations we will refer back to throughout this project. Note: Equations 1-2 are part of the **prediction step** above and Equations 3-5 are for the **update step**.
 
 **1) State Extrapolation Eq.**
+
 **2) Covariance Extrapolation Eq.**
+
 **3) Kalman Gain Eq.**
+
 **4) State Update Eq.**
+
 **5) Covariance Update Eq.**
 
 To set the context, we are going to refer to an example as we build out the equations used. Imagine we are trying to measure the weight of a robotic humanoid. 
@@ -113,9 +119,13 @@ where $\hat{p}_{n,n}$ is the current estimation uncertainty and $\hat{p}_{n,n-1}
 The Kalman Filter is a recursive algorithm that are based on 5 equations:
 
 1) <u> State Extrapolation Equation</u>: predicting or estimating the future state based on the known present estimation.
+
 2) <u> Covariance Extrapolation Equation</u>: the measure of uncertainty in our prediction.
+
 3) <u> State Update Equation</u>: estimating the current state based on the known prior estimation and present measurement.
+
 4) <u> Covariance Update Equation</u>: the measure of uncertainty in our estimation.
+
 5) <u> Kalman Gain Equation</u>: a “weighting” parameter between prior estimate versus the new measurement.
 
 The Kalman filter is recursive because at each cycle it treats the previous posterior state and covariance as the prior for the next prediction–update step, so you never need to store or reprocess past measurements. You simply alternate “predict” (project forward your last estimate) and “update” (correct it with the newest measurement) as long new data arrives. In practice you run it indefinitely in real time — either for the entire duration of your sensing task or until the estimate covariance and/or Kalman gain converges to a steady‐state or falls below a defined error metric (i.e. RMSE), at which point further updates produce negligible change.
@@ -259,6 +269,8 @@ bokeh serve --show <name_of_file>.py (in my case I named it "interactive_1D_KF.p
 <div align="center">
   <img src="../../images/projects/kalman_filter/1D_example.gif" width="90%">
 </div>
+
+
 
 The Kalman filter is defined as a function that will take in the necessary inputs and compute the corresponding variables defined in first section. Specifically, as you run this example, you will notice that under different conditions of choosing process noise and measurement noise you will see the Kalman filter adjust according to what it trusts more -- either the new measurement or previous estimate. In the case of the high process noise and low measurement noise, the Kalman Gain is close to 1, indicating that the Kalman Filter does not highly weight the new incoming measurement. However, when the high process noise and high measurement noise is employed, there is a finer balance and one can see that the filter is adapting and adjusting to changes more accurately. **Note, that is heavily dependent on the context of what you are trying to filter, so it is crucial to try to understand how these values can affect your performance when using this algorithm.** 
 
