@@ -53,7 +53,7 @@ There are a total of 5 equations we will refer back to throughout this project. 
 
 To set the context, we are going to refer to an example as we build out the equations used. Imagine we are trying to measure the weight of a robotic humanoid. 
 
-The 1^st^ equation we will look at is called the <u>State Extrapolation Equation</u> (otherwise known as Dynamic Model or State Space Model). This equation is the basis of the filter since it defines the dynamic model of the system / environment.
+The first equation we will look at is called the <u>State Extrapolation Equation</u> (otherwise known as Dynamic Model or State Space Model). This equation is the basis of the filter since it defines the dynamic model of the system / environment.
 
 In this particular example, the dynamic model is "constant". The weight of the robot is not changing as we try to measure the weight through multiple iterations. Mathematically, this relationship can be defined as:
 
@@ -61,9 +61,9 @@ $$
 \hat{x}_{n+1,n} = \hat{x}_{n,n}
 $$
 
-where $\hat{x}_{n+1,n}$ is predicted estimate and $\hat{x}_{n,n}$ is the current estimate. 
+where \(\hat{x}_{n+1,n}\) is predicted estimate and $\hat{x}_{n,n}$ is the current estimate. 
 
-Since the Kalman filter treats the estimate as a random variable (i.e. represents the hidden state of a system that is being estimated, and its values are uncertain and influenced by random noise but follow Gaussian properties), we must also [extrapolate](https://en.wikipedia.org/wiki/Extrapolation) the "estimation variance/uncertainty". Hence the 2^nd^ equation is called the <u>Covariance Extrapolation Equation</u>. In real-world applications there are uncertainties in the system dynamic model. Example, the sensor used to measure the weight of an object can be influenced by temperature. Hence, the uncertainty of the dynamic model is called the **process noise ($q_n$)**. Mathematically, the relationship is defined as:
+Since the Kalman filter treats the estimate as a random variable (i.e. represents the hidden state of a system that is being estimated, and its values are uncertain and influenced by random noise but follow Gaussian properties), we must also [extrapolate](https://en.wikipedia.org/wiki/Extrapolation) the "estimation variance/uncertainty". Hence the second equation is called the <u>Covariance Extrapolation Equation</u>. In real-world applications there are uncertainties in the system dynamic model. Example, the sensor used to measure the weight of an object can be influenced by temperature. Hence, the uncertainty of the dynamic model is called the **process noise ($q_n$)**. Mathematically, the relationship is defined as:
 
 $$ 
 \hat{p}_{n+1,n} = \hat{p}_{n,n} + q_n
