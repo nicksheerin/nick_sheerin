@@ -14,7 +14,8 @@ layout: compress
     <script>
       MathJax = {
         tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
+          inlineMath: [['$$$'], ['\\(','\\)']],   /* ← allows $…$ *and* \(…\) */
+          displayMath: [['$$','$$'], ['\\[','\\]']]
         },
         svg: {
           fontCache: 'global'
