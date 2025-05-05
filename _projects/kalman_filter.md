@@ -122,7 +122,147 @@ The Kalman filter is recursive because at each cycle it treats the previous post
 
 # 1D Kalman Filter
 
-Work in Progress
+Let's now try an example of implementing what we learned into a practical example. In this example, we will use a **sine wave** to simulate data and will create a dynamically adjustable Kalman filter that can be tuned via some slider buttons.
+
+Here is the sample code:
+
+```python
+
+import numpy as np
+from bokeh.io import curdoc
+from bokeh.models import ColumnDataSource, Slider, Button, Div
+from bokeh.layouts import column, row
+from bokeh.plotting import figure
+
+# —————————————————————————————————————
+# One-step Kalman update function, now returning all intermediates
+def kalman_step(measurement, prior_estimate, prior_variance, process_noise, measurement_variance):
+    # 1) Kalman gain
+    K = prior_variance / (prior_variance + measurement_variance)
+    # 2) State update
+    estimate = prior_estimate + K * (measurement - prior_estimate)
+    # 3) Covariance update
+    post_variance = (1 - K) * prior_variance
+    # 4) Predict next-prior
+    prior_estimate_next = estimate # state extrapolation
+    prior_variance_next = post_variance + process_noise # covariance extrapolation
+    
+    return {
+        'estimate': estimate,
+        'K': K,
+        'post_variance': post_variance,
+        'next_prior_estimate': prior_estimate_next,
+        'next_prior_variance': prior_variance_next
+    }
+
+# —————————————————————————————————————
+# Initial filter state
+prior_est = 0.0
+prior_P   = 0.1
+
+# Streaming window and timing
+N   = 500       # keep last N points
+dt  = 0.01      # seconds per step
+t0  = 0.0       # time counter
+
+# Bokeh data source with a rolling window
+source = ColumnDataSource(data=dict(x = list(range(N)), measurement = [0.0]*N, estimate = [0.0]*N))
+
+# Figure setup
+p = figure(title="RT 1D Kalman-Filter Stream", x_axis_label='Sample index', y_axis_label='Value', width=1000, height=600)
+p.line('x', 'measurement', source=source, legend_label="Noisy measurement", line_color="red", alpha=0.6, line_width=3)
+p.line('x', 'estimate', source=source, legend_label="Filter estimate",  line_color="green", line_width=3)
+p.legend.location = "top_left"
+
+# —————————————————————————————————————
+# Sliders
+slider_q = Slider(start=1e-8, end=1e-1, value=1e-3, step=1e-7, format="0.0000000", title="Process noise (qₙ)")
+slider_r = Slider(start=1e-3, end=1.0, value=0.1, step=1e-2, title="Measurement noise (rₙ)")
+
+# —————————————————————————————————————
+# Divs to show computed values
+div_K         = Div(text="K: —",               width=200)
+div_post_var  = Div(text="Post-variance: —",   width=200)
+div_prior_est = Div(text="Next prior est: —",  width=200)
+div_prior_var = Div(text="Next prior var: —",  width=200)
+
+stats_panel = column(div_K, div_post_var, div_prior_est, div_prior_var, width=220)
+
+# —————————————————————————————————————
+# Preset buttons
+button_low_low  = Button(label="Low Process noise (qₙ) & Low Measurement noise (rₙ)", width=150)
+button_high_low = Button(label="High Process noise (qₙ) & Low Measurement noise (rₙ)", width=150)
+button_low_high = Button(label="Low Process noise (qₙ) & High Measurement noise (rₙ)", width=150)
+button_high_high = Button(label="High Process noise (qₙ) & High Measurement noise (rₙ)", width=150)
+button_reset    = Button(label="Reset", width=150)
+
+def set_preset(q_val, r_val):
+    slider_q.value = q_val
+    slider_r.value = r_val
+
+button_low_low.on_click(lambda: set_preset(1e-6, 0.01))
+button_high_low.on_click(lambda: set_preset(0.1, 0.01))
+button_low_high.on_click(lambda: set_preset(1e-6, 0.8))
+button_high_high.on_click(lambda: set_preset(0.1, 0.8))
+button_reset.on_click(lambda: set_preset(1e-4, 0.1))
+button_panel = column(button_low_low, button_high_low, button_low_high, button_high_high, button_reset)
+
+# —————————————————————————————————————
+# Streaming callback
+def stream_step():
+    global prior_est, prior_P, t0
+
+    # 1) Read sliders
+    q_val = slider_q.value
+    r_val = slider_r.value
+
+    # 2) Generate synthetic sinusoidal measurements
+    true_val = np.sin(2 * np.pi * 0.3 * t0)
+    meas = true_val + 0.5 * np.random.randn()
+
+    # 3) Kalman update with all parameters
+    result = kalman_step(measurement=meas, prior_estimate=prior_est, prior_variance=prior_P, process_noise=q_val, measurement_variance=r_val)
+
+    # Unpack results
+    est                 = result['estimate']
+    K                   = result['K']
+    post_variance       = result['post_variance']
+    prior_est, prior_P  = result['next_prior_estimate'], result['next_prior_variance']
+
+    # 4) Stream new point, keep rolling window
+    new_x = source.data['x'][-1] + 1
+    source.stream({'x':[new_x], 'measurement': [meas], 'estimate': [est],}, rollover=N)
+
+    # 5) Update Divs
+    div_K.text         = f"K: {K:.4f}"
+    div_post_var.text  = f"Post-variance: {post_variance:.4f}"
+    div_prior_est.text = f"Next prior est: {prior_est:.4f}"
+    div_prior_var.text = f"Next prior var: {prior_P:.4f}"
+
+    # 6) Advance time
+    t0 += dt
+
+# Register callback every 10 ms
+curdoc().add_periodic_callback(stream_step, 10)
+
+# Layout
+controls = row(slider_q, slider_r, stats_panel, button_panel)
+curdoc().add_root(column(controls, p))
+curdoc().title = "RT 1D Kalman Filter Explorer"
+```
+
+To run this code in terminal:
+```python
+bokeh serve --show <name_of_file>.py (in my case I named it "interactive_1D_KF.py")
+```
+
+<div align="center">
+  <img src="../../images/projects/kalman_filter/1D_example.gif" width="90%">
+</div>
+
+The Kalman filter is defined as a function that will take in the necessary inputs and compute the corresponding variables defined in first section. Specifically, as you run this example, you will notice that under different conditions of choosing process noise and measurement noise you will see the Kalman filter adjust according to what it trusts more -- either the new measurement or previous estimate. In the case of the high process noise and low measurement noise, the Kalman Gain is close to 1, indicating that the Kalman Filter does not highly weight the new incoming measurement. However, when the high process noise and high measurement noise is employed, there is a finer balance and one can see that the filter is adapting and adjusting to changes more accurately. **Note, that is heavily dependent on the context of what you are trying to filter, so it is crucial to try to understand how these values can affect your performance when using this algorithm.** 
+
+
 
 # 2D Kalman Filter
 
