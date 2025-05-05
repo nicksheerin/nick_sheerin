@@ -22,6 +22,7 @@ This project explores building the intuition behind the Kalman Filter and explor
 - [2D Kalman Filter](#2d-kalman-filter)
 - [3D Kalman Filter](#3d-kalman-filter)
 - [Conclusion](#conclusion)
+- [Contact Me](#contact-me)
 - [References](#references)
 
 # Overall Summary
@@ -270,8 +271,6 @@ bokeh serve --show <name_of_file>.py (in my case I named it "interactive_1D_KF.p
   <img src="../../images/projects/kalman_filter/1D_example.gif" width="90%">
 </div>
 
-
-
 The Kalman filter is defined as a function that will take in the necessary inputs and compute the corresponding variables defined in first section. Specifically, as you run this example, you will notice that under different conditions of choosing process noise and measurement noise you will see the Kalman filter adjust according to what it trusts more -- either the new measurement or previous estimate. In the case of the high process noise and low measurement noise, the Kalman Gain is close to 1, indicating that the Kalman Filter does not highly weight the new incoming measurement. However, when the high process noise and high measurement noise is employed, there is a finer balance and one can see that the filter is adapting and adjusting to changes more accurately. **Note, that is heavily dependent on the context of what you are trying to filter, so it is crucial to try to understand how these values can affect your performance when using this algorithm.** 
 
 
@@ -288,10 +287,16 @@ Work in Progress
 
 Work in Progress
 
+# Contact Me
+Feel free to send me an email if you have any questions or comments: kbhakta96@gmail.com
+
 # References
 
 [1] https://www.kalmanfilter.net/default.aspx
+
 [2] https://medium.com/data-science/exposing-the-power-of-the-kalman-filter-1b78621c3f56
+
 [3] https://cookierobotics.com/071/
+
 [4] https://www.codeproject.com/Articles/865935/Object-Tracking-Kalman-Filter-with-Ease
 
