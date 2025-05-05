@@ -61,7 +61,7 @@ $$
 \hat{x}_{n+1,n} = \hat{x}_{n,n}
 $$
 
-where \(\hat{x}_{n+1,n}\) is predicted estimate and $\hat{x}_{n,n}$ is the current estimate. 
+where \( \hat{x}_{n+1,n} \) is predicted estimate and {% raw %}$\hat{x}_{n,n}${% endraw %} is the current estimate. 
 
 Since the Kalman filter treats the estimate as a random variable (i.e. represents the hidden state of a system that is being estimated, and its values are uncertain and influenced by random noise but follow Gaussian properties), we must also [extrapolate](https://en.wikipedia.org/wiki/Extrapolation) the "estimation variance/uncertainty". Hence the second equation is called the <u>Covariance Extrapolation Equation</u>. In real-world applications there are uncertainties in the system dynamic model. Example, the sensor used to measure the weight of an object can be influenced by temperature. Hence, the uncertainty of the dynamic model is called the **process noise ($q_n$)**. Mathematically, the relationship is defined as:
 
