@@ -292,6 +292,8 @@ Feel free to send me an email if you have any questions or comments: kbhakta96@g
 
 # References
 
+These references were vert useful in helping me build my intuition around this material and wanted to credit all those that have come before me to share their knowledge:
+
 [1] https://www.kalmanfilter.net/default.aspx
 
 [2] https://medium.com/data-science/exposing-the-power-of-the-kalman-filter-1b78621c3f56
