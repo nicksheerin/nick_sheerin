@@ -61,7 +61,7 @@ $$
 \hat{x}_{n+1,n} = \hat{x}_{n,n}
 $$
 
-where \( \hat{x}_{n+1,n} \) is predicted estimate and $$\hat{x}_{n,n}$$ is the current estimate. 
+where $$\hat{x}_{n+1,n}$$ is predicted estimate and $$\hat{x}_{n,n}$$ is the current estimate. 
 
 Since the Kalman filter treats the estimate as a random variable (i.e. represents the hidden state of a system that is being estimated, and its values are uncertain and influenced by random noise but follow Gaussian properties), we must also [extrapolate](https://en.wikipedia.org/wiki/Extrapolation) the "estimation variance/uncertainty". Hence the second equation is called the <u>Covariance Extrapolation Equation</u>. In real-world applications there are uncertainties in the system dynamic model. Example, the sensor used to measure the weight of an object can be influenced by temperature. Hence, the uncertainty of the dynamic model is called the **process noise ($q_n$)**. Mathematically, the relationship is defined as:
 
@@ -69,7 +69,7 @@ $$
 \hat{p}_{n+1,n} = \hat{p}_{n,n} + q_n
 $$
 
-where $\hat{p}_{n+1,n}$ is predicted estimation uncertainty and $\hat{p}_{n,n}$ is the current estimation uncertainty.
+where $$\hat{p}_{n+1,n}$$ is predicted estimation uncertainty and $$\hat{p}_{n,n}$$ is the current estimation uncertainty.
 
 Now both of these equations assumed constant dynamics, but that might not be actually how a system behaves. For example, we might be interested in tracking the robot as it walks (i.e. we might want to estimate position and velocity). For brevity, let's assume constant velocity as the robot is walking in a straight line. We need to expand the dynamic model using motion equations for both position and velocity:
 
@@ -81,7 +81,7 @@ $$
 \hat{\dot x}_{n+1,n} = \hat{\dot x}_{n,n}
 $$
 
-where the predicted position ($\hat{x}_{n+1,n}$) equals the current estimated position ($\hat{x}_{n,n}$) plus the change in time multiplied by the estimated velocity ($\hat{\dot x}_{n,n}$). The predicted velocity ($\hat{\dot x}_{n+1,n}$)  equals the current velocity ($\hat{\dot x}_{n,n}$) estimate (assuming a constant velocity term, but again this could change if we had an acceleration term). Similarly, the covariance extrapolations equations would also need to be adjusted:
+where the predicted position ($$\hat{x}_{n+1,n}$$) equals the current estimated position ($$\hat{x}_{n,n}$$) plus the change in time multiplied by the estimated velocity ($$\hat{\dot x}_{n,n}$$). The predicted velocity ($$\hat{\dot x}_{n+1,n}$$)  equals the current velocity ($$\hat{\dot x}_{n,n}$$) estimate (assuming a constant velocity term, but again this could change if we had an acceleration term). Similarly, the covariance extrapolations equations would also need to be adjusted:
 
 $$ 
 \hat{p}^{pos}_{n+1,n} = \hat{p}^{pos}_{n,n} + \Delta{t^2}\hat{p}^{vel}_{n,n}
@@ -93,13 +93,13 @@ $$
 
 Note that the above equations are part of the **prediction step**. Let's know dive into the **update step**.
 
-The Kalman gain ($K_{n}$) is a measure of how much influence a new measurement should have on the state estimate, by balancing the uncertainties in the predictions and measurements. Mathematically, the <u>Kalman Gain Equation</u> can be defined as:
+The Kalman gain ($$K_{n}$$) is a measure of how much influence a new measurement should have on the state estimate, by balancing the uncertainties in the predictions and measurements. Mathematically, the <u>Kalman Gain Equation</u> can be defined as:
 
 $$
 K_{n} = \frac{\hat{p}_{n,n-1}}{\hat{p}_{n,n-1} + r_n}
 $$
 
-where $\hat{p}_{n,n-1}$ is the extrapolated estimate uncertainty / variance and $r_{n}$ is the measurement uncertainty / noise. Note, the Kalman Gain is a number that ranges between 0 and 1. When $K_{n}$ is close to 0 (**low Kalman gain**), the filter trusts the prior estimate more (i.e. high measurement uncertainty relative to the estimate uncertainty). When $K_{n}$ is close to 1 (**high Kalman gain**), the filter trusts the measurement more (i.e. low measurement uncertainty relative to the estimate uncertainty). If both uncertainties are equal then $K_{n} = 0.5$ giving equal weight to both the measurement and the estimate.
+where $$\hat{p}_{n,n-1}$$ is the extrapolated estimate uncertainty / variance and $$r_{n}$$ is the measurement uncertainty / noise. Note, the Kalman Gain is a number that ranges between 0 and 1. When $$K_{n}$$ is close to 0 (**low Kalman gain**), the filter trusts the prior estimate more (i.e. high measurement uncertainty relative to the estimate uncertainty). When $$K_{n}$$ is close to 1 (**high Kalman gain**), the filter trusts the measurement more (i.e. low measurement uncertainty relative to the estimate uncertainty). If both uncertainties are equal then $$K_{n} = 0.5$$ giving equal weight to both the measurement and the estimate.
 
 Now that this Kalman Gain has been derived, this variable can be used to update the state and covariance equations. The Kalman Filter is an optimal filter. It combines the prior state estimate with the measurement in a way that minimizes the uncertainty of the current state estimate. Mathematically, the <u> State Update Equation </u> is defined as:
 
@@ -107,13 +107,13 @@ $$
 \hat{x}_{n,n} = \hat{x}_{n,n-1} + K_{n}(z_{n} - \hat{x}_{n,n-1})
 $$
 
-where $\hat{x}_{n,n}$ is the current estimate, $\hat{x}_{n,n-1}$ is the previous estimate, $K_{n}$ is the Kalman gain, and $z_{n}$ is the current measurement. Sometimes, the $(z_{n} - \hat{x}_{n,n-1})$ term is referred to as the measurement residual or the **innovation**. Lastly, the <u> Covariance Update Equation </u> is defined as:
+where $$\hat{x}_{n,n}$$ is the current estimate, $$\hat{x}_{n,n-1}$$ is the previous estimate, $$K_{n}$$ is the Kalman gain, and $$z_{n}$$ is the current measurement. Sometimes, the $$(z_{n} - \hat{x}_{n,n-1})$$ term is referred to as the measurement residual or the **innovation**. Lastly, the <u> Covariance Update Equation </u> is defined as:
 
 $$ 
 \hat{p}_{n,n} = (1 - K_{n})\hat{p}_{n,n-1}
 $$
 
-where $\hat{p}_{n,n}$ is the current estimation uncertainty and $\hat{p}_{n,n-1}$ is the previous estimation uncertainty.
+where $$\hat{p}_{n,n}$$ is the current estimation uncertainty and $$\hat{p}_{n,n-1}$$ is the previous estimation uncertainty.
 
 ## Quick Recap
 
