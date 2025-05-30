@@ -1,12 +1,12 @@
 ---
-title: "NASA Lunabotics Mining Competition 2023"
+title: "NASA Lunabotics Autonomous Mining Competition 2023"
 layout: single-portfolio
 excerpt: "<img src='../images/projects/lunabotics/DAVIID-Assy.jpg' alt=''>"
 collection: projects
 order_number: 20
 ---
 
-# Gesture Recognition using Smart lunabotics
+# DAVIID - Directed Autonomous Vehicle for Interspatial Digging Gen 2
 
 <div align="center">
 <img src="../../images/projects/lunabotics/DAVIID_Precomp.png">
