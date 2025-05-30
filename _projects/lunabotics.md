@@ -12,9 +12,7 @@ order_number: 20
 <img src="../../images/projects/lunabotics/DAVIID_Precomp.png">
 </div>
 
-This project was a collaboration between 22 students across three degree paths to compete in 
-
-: Dawit Lee, Jared Li, Oludotun Ode, and myself. We worked on this final project for ECE 8833: Biomedical Sensing Systems in the Fall of 2017. The project entailed us utilizing biomedical instrumentation that could be used to solve a real problem. We ended up choosing to create a [“smart lunabotics”](https://youtu.be/maCvKXfcnyE) that could take in certain gestures and display them through an app to communicate effectively with those with certain hearing/speech pathologies. 
+This project was a collaboration between 22 students to compete in an Autonomous mining competition.
 
 ## Overall Summary
 
@@ -39,6 +37,10 @@ Highlight important points
 </div> -->
 
 Include the BOM and highlight your points working in it.
+## Beam Deflection and Modeling
+
+## Circuit Design & Software
+
 
 ## Data Collection
 
