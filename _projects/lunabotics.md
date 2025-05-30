@@ -20,10 +20,11 @@ This project was a collaborative efoort between 22 students to compete in an Aut
 Detail the problems mining on the moon, Artemis, and unique problems faced  obtaining regolith.
 
 Give an overall Summary of the team, and include the lessons learned from last year.
-<!-- 
+
+
 <div align="center">
-<img src="../../images/projects/lunabotics/device.png" width = "50%">
-</div> -->
+<img src="../../images/projects/lunabotics/DAVIID_Precomp-side.png" width = "50%">
+</div>
 
 ## System Overview
 
