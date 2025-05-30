@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Krishan Bhakta"
+title                    : "Nick Sheerin"
 title_separator          : "-"
-name                     : &name "Krishan Bhakta"
+name                     : &name "Nick Sheerin"
 description              : &description "Algorithm Development Engineer"
 url                      : https://nicksheerin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/website_test" # the subpath of your site, e.g. "/blog"
-repository               : "website_test/nicksheerin.github.io"
+baseurl                  : "/nick_sheerin" # the subpath of your site, e.g. "/blog"
+repository               : "nick_sheerin/nicksheerin.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -84,7 +84,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Krishan Bhakta"
+  name             : "Nick Sheerin"
   avatar           : "kb_headshot.jpg"
   bio              : "Algorithm Development Engineer"
   location         : "Bay Area, California"
@@ -92,7 +92,7 @@ author:
   pubmed           :
   orcid            : 
   googlescholar    : "https://scholar.google.com/citations?user=w0-3nm7ocXMC&hl=en"
-  email            : "kbhakta96@gmail.com"
+  email            : "nw.sheerin@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
