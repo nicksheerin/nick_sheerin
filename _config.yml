@@ -180,7 +180,7 @@ kramdown:
   enable_coderay: false
   math_engine: mathjax
   math_engine_opts:
-    preview: false
+    preview: true
 
 
 # Collections
