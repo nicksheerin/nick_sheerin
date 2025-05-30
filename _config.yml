@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Nick Sheerin"
   avatar           : "kb_headshot.jpg"
-  bio              : "Algorithm Development Engineer"
+  bio              : "Systems Engineer"
   location         : "Bay Area, California"
   employer         :
   pubmed           :
@@ -101,21 +101,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "kbhakt"
+  github           : "nicksheerin"
   gitlab           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "kbgt/"
+  linkedin         : "https://www.linkedin.com/in/nick-w-sheerin/"
   mastodon         : 
   pinterest        :
   soundcloud       :
   stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
   steam            :
   tumblr           :
-  twitter          : "@KrishanBhakta"
+  twitter          : #"@KrishanBhakta"
   vine             :
   weibo            :
   xing             :
