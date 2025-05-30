@@ -1,5 +1,5 @@
 ---
-title: "NASA Lunabotics Mining Competition 2025"
+title: "NASA Lunabotics Mining Competition 2023"
 layout: single-portfolio
 excerpt: "<img src='../images/projects/lunabotics/DAVIID-Assy.png' alt=''>"
 collection: projects
@@ -11,6 +11,7 @@ order_number: 20
 <div align="center">
 <img src="../../images/projects/lunabotics/DAVIID_Precomp.png">
 </div>
+
 
 This project was a collaboration between 22 students to compete in an Autonomous mining competition.
 
