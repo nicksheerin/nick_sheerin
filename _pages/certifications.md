@@ -7,7 +7,7 @@ Here are some of my courses I have taken to explore my interests and to gain new
 
 ## NCEES FE Mecahnical Exam Pass
 
-[Passing](https://account.ncees.org/rn/2298733-1532875-d2f4c20) this exam opens the opportunity for potential Professional Engineer (PE) liscensure.
+[Passing](https://account.ncees.org/rn/2298733-1532875-d2f4c20) this exam verifies my competency in fundamental engineering principles. Passing this exam is the first step in obtaining Professional Engineer (PE) liscensure.
 
 
 <!-- ## Intermediate Python3 
