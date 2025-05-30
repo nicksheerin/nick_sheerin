@@ -1,7 +1,7 @@
 ---
 title: "NASA Lunabotics Autonomous Mining Competition 2023"
 layout: single-portfolio
-excerpt: "<img src='../images/projects/lunabotics/DAVIID-Assy.jpg' alt=''>"
+excerpt: "<img src='../images/projects/lunabotics/DAVIID-Arena.jpg' alt=''>"
 collection: projects
 order_number: 20
 ---
@@ -32,13 +32,18 @@ Highlight important points
 
 
 ## Mechanical System
-<!-- 
-<div align="center">
-<img src="../../images/projects/lunabotics/flow_chart.png">
-</div> -->
 
-Include the BOM and highlight your points working in it.
+<div align="center">
+<img src="../../images/projects/lunabotics/DAVIID-Assy.jpg">
+<img src="../../images/projects/lunabotics/overall_assy.png">
+</div>
+
+As the integration Lead, I focused on creating Assembly, Machining, and Welding drawing. I acted as the main point of contact between the Computer Science, Electrical Engineering, and Mechanical Engineering teams. 
+
+<!-- 
 ## Beam Deflection and Modeling
+ -->
+
 
 ## Circuit Design & Software
 
