@@ -36,8 +36,16 @@ Highlight important points
 
 <div align="center">
 <img src="../../images/projects/lunabotics/DAVIID-Assy.jpg">
+</div>
+
+<div align="center">
 <img src="../../images/projects/lunabotics/overall_assy.png">
 </div>
+
+<div align="center">
+<img src="../../images/projects/lunabotics/loco_assy.png">
+</div>
+
 
 As the integration Lead, I focused on creating Assembly, Machining, and Welding drawing. I acted as the main point of contact between the Computer Science, Electrical Engineering, and Mechanical Engineering teams. 
 
