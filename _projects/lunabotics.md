@@ -1,7 +1,7 @@
 ---
 title: "NASA Lunabotics Autonomous Mining Competition 2023"
 layout: single-portfolio
-excerpt: "<img src='../images/projects/lunabotics/DAVIID-Arena.jpg' alt=''>"
+excerpt: "<img src='../images/projects/lunabotics/DAVIID_Arena.jpg' alt=''>"
 collection: projects
 order_number: 20
 ---
@@ -13,7 +13,7 @@ order_number: 20
 </div>
 
 
-This project was a collaboration between 22 students to compete in an Autonomous mining competition.
+This project was a collaborative efoort between 22 students to compete in an Autonomous mining competition.
 
 ## Overall Summary
 
