@@ -1,5 +1,5 @@
 ---
-title: "NASA Lunabotics Autonomous Mining Competition 2023"
+title: "NASA Lunabotics Competition 2023"
 layout: single-portfolio
 excerpt: "<img src='../images/projects/lunabotics/DAVIID_Arena.jpg' alt=''>"
 collection: projects
