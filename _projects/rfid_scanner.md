@@ -1,12 +1,12 @@
 ---
-title: "RFID Baggage Scanner"
+title: "SMART Cargo System: RFID Baggage Scanning Device"
 layout: single-portfolio
 excerpt: "<img src='../images/projects/rfid_scanner/rfid-overview.png' alt=''>"
 collection: projects
 order_number: 10
 ---
 
-# SMART Cargo System: RFID Baggage Scanning Device
+<!-- # SMART Cargo System: RFID Baggage Scanning Device -->
 
 <div align="center">
 <img src="../../images/projects/rfid_scanner/rfid-overview.png">
