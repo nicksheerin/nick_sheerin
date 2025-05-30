@@ -8,11 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I’m a passionate robotics and mechatronics engineer with a knack for solving complex challenges with practical & innovative solutions. In my current role at GameChanger Analytics, I lead the software design for wearable devices that not only handles advanced sensor fusion and machine learning techniques but also brings real-time, actionable insights from data like IMU and physiological signals into everyday applications. I love seeing how these innovations can make a difference in improving human performance.
 
-I received my **Ph.D. in Mechanical Engineering (Specialization: Mechatronics & Control)** from the Georgia Institute of Technology, as a member in the [Exoskeleton and Prosthetic Intelligent Controls (EPIC) Lab](https://www.epic.gatech.edu/). My doctoral studies focused on the development of intelligent controllers for powered robotic prostheses and exoskeletons for individuals with gait impairments. This was achieved by utilizing embedded sensor & microprocessor technology paired with machine learning and sensor fusion to improve robustness and intelligence of these devices in real time. 
+I’m a passionate robotics and controls with a knack for solving complex challenges with practical & innovative solutions. 
 
-Throughout my career, I’ve built scalable, end-to-end pipelines that seamlessly merge multiple sensor streams and analytical methods into embedded systems. I thrive on the challenge of communicating complex technical concepts in a way that’s accessible to everyone! My continuous curiosity and passion for learning drive me to explore new frontiers in robotics, mechatronics, controls, machine learning, and data science.
+I received my **B.S. in Mechanical Engineering** from the New Mexico Institute of Mining and Technology. 
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>

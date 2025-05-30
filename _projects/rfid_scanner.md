@@ -20,8 +20,9 @@ Delta has already implemented RFID tags in their baggage. As part of a
 
 ## General Overview
 
- During this project we built and tested a detachable RFID-based baggage scanning prototype aimed to reduce costs related to baggage mishandling and aircraft turn time. 
+This project developed a detachable RFID-based baggage scanning prototype aimed to reduce costs related to baggage mishandling and aircraft turn time. 
  
+
 
 
 ## References
