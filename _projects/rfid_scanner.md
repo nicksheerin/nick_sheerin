@@ -1,5 +1,5 @@
 ---
-title: "Robotic Prosthesis to Enhance Mobility"
+title: "RFID Baggage Scanner"
 layout: single-portfolio
 excerpt: "<img src='../images/projects/intent/dissertation.png' alt=''>"
 collection: projects
