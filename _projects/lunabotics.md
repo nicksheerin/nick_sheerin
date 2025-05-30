@@ -1,7 +1,7 @@
 ---
 title: "NASA Lunabotics Mining Competition 2023"
 layout: single-portfolio
-excerpt: "<img src='../images/projects/lunabotics/DAVIID-Assy.png' alt=''>"
+excerpt: "<img src='../images/projects/lunabotics/DAVIID-Assy.jpg' alt=''>"
 collection: projects
 order_number: 20
 ---
