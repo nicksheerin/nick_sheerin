@@ -5,7 +5,12 @@ title: "Certifications"
 
 Here are some of my courses I have taken to explore my interests and to gain new skills.
 
-## Intermediate Python3 
+## NCEES FE Mecahnical Exam Pass
+
+[Passing](https://account.ncees.org/rn/2298733-1532875-d2f4c20) this exam opens the opportunity for potential Professional Engineer (PE) liscensure.
+
+
+<!-- ## Intermediate Python3 
 
 (Received 12/31/2023)
 
@@ -45,4 +50,4 @@ This [specialization](https://www.coursera.org/specializations/sports-analytics)
 
 (Received 11/17/2022)
 
-I was able to complete 4 out of 5 courses needed for this [specialization](https://www.coursera.org/specializations/wharton-entrepreneurship#courses). This was a very good introductory set of materials of understanding the basics of developing and pursuing entrepreneurial opportunities.
+I was able to complete 4 out of 5 courses needed for this [specialization](https://www.coursera.org/specializations/wharton-entrepreneurship#courses). This was a very good introductory set of materials of understanding the basics of developing and pursuing entrepreneurial opportunities. -->
