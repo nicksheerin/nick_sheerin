@@ -14,9 +14,9 @@ order_number: 10
 
 ## Overall Summary
 
-Lost baggage is a persistent cost to airline companies. In 2023 alone, airline companies mishandled 485.9 million bags[1]. 
+Lost baggage is a persistent cost to airline companies. In 2023 alone, airline companies mishandled 485.9 million bags[1]. For most airline companies, baggage is manually scanned.
 
-Delta has already implemented RFID tags in their baggage. As part of a 
+Delta has already implemented RFID tags in their baggage. As part of an incentive to airline companies, Boeing funded the exploratory the SMART Cargo System which aimed to provide an optional and attachable tool to scan baggage entering and leaving the plane then display the baggage information to a user interface.
 
 ## General Overview
 

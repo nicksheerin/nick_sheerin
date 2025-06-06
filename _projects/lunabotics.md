@@ -33,6 +33,9 @@ Highlight important points
 
 
 ## Mechanical System
+As the integration Lead, I focused on creating Assembly, Machining, and Welding drawing. I also directed collaboration and integration between the Computer Science, Electrical Engineering, and Mechanical Engineering sub-teams. 
+
+Below are examples of Assembly drawings I created in SolidWorks.
 
 <div align="center">
 <img src="../../images/projects/lunabotics/DAVIID-Assy.jpg">
@@ -47,7 +50,11 @@ Highlight important points
 </div>
 
 
-As the integration Lead, I focused on creating Assembly, Machining, and Welding drawing. I acted as the main point of contact between the Computer Science, Electrical Engineering, and Mechanical Engineering teams. 
+  <body>
+    <h1>PDF Example</h1>
+    <p>Open a PDF file <a href="../../images/projects/lunabotics/CHASSIS_SUBASSYDWGPDF.pdf">example</a>.</p>
+  </body>
+
 
 <!-- 
 ## Beam Deflection and Modeling
