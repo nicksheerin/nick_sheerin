@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Nick Sheerin"
 title_separator          : "-"
 name                     : &name "Nick Sheerin"
-description              : &description "Mechanical Engineer"
+description              : &description "Systems Engineer"
 url                      : https://nicksheerin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/nick_sheerin" # the subpath of your site, e.g. "/blog"
 repository               : "nick_sheerin/nicksheerin.github.io"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Nick Sheerin"
   avatar           : "nw_headshot.jpg"
-  bio              : "Mechanical Engineer"
+  bio              : "Systems Engineer"
   location         : "Bay Area, California"
   employer         :
   pubmed           :
