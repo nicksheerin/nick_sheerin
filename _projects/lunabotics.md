@@ -29,7 +29,7 @@ New Mexico Institute of Mining and Technology was the first team invited to the 
 
 ## System Overview
 
-The robot, namedDAVIID (Directed Autonomous Vehicle forInterspatial Digging, with II indicating itssecond generation), was designed tofunction on various terrain and perform thedesignated tasks as determined by theLunabotics challenge criteria using NASA’sSystem Engineering process. Building uponthe insight gained by the development andperformance of the previous robot, DAVID,Miner 49ers’ DAVIID aims to meet thechallenges posed by this year's competitionrequirements and take lessons learned fromboth the positives and negatives of lastyear's design. 
+The robot, named DAVIID (Directed Autonomous Vehicle forInterspatial Digging, with II indicating itssecond generation), was designed tofunction on various terrain and perform thedesignated tasks as determined by theLunabotics challenge criteria using NASA’sSystem Engineering process. Building uponthe insight gained by the development andperformance of the previous robot, DAVID,Miner 49ers’ DAVIID aims to meet thechallenges posed by this year's competitionrequirements and take lessons learned fromboth the positives and negatives of lastyear's design. 
 
 The table below shows the Technical Performance Measurements of the robot.
 
