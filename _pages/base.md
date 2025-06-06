@@ -1,11 +1,11 @@
 ---
-permalink: /
+permalink: https://nicksheerin.github.io/
 title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  # - /about/
+  # - /about.html
 ---
 
 
