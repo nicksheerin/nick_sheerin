@@ -51,8 +51,8 @@ Below are examples of Assembly drawings I created in SolidWorks.
 
 
   <body>
-    <h1>PDF Example</h1>
-    <p>Open a PDF file <a href="../../images/projects/lunabotics/CHASSIS_SUBASSYDWGPDF.pdf">example</a>.</p>
+    <h1>Manufacturing Drawings</h1>
+    <p>Open a PDF containing the <a href="../../images/projects/lunabotics/CHASSIS_SUBASSYDWGPDF.pdf">manufacturing drawings</a>.</p>
   </body>
 
 
