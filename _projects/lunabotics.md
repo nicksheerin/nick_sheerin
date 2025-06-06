@@ -13,13 +13,13 @@ order_number: 20
 </div>
 
 
-This project was a collaborative efoort between 22 students to compete in an Autonomous mining competition.
+This project was a collaborative effort between 22 students across four degree paths to compete in an Autonomous mining competition sponsored by NASA's Artemis Program and Caterpillar.
 
 ## Overall Summary
 
-Detail the problems mining on the moon, Artemis, and unique problems faced  obtaining regolith.
+The Apollo missions provided universities the ability to aid in the program by developing new technology for spacecraft and equipment and research material brought back from the lunar surface. NASA initiated the Artemis Mission in December 2017 to return astronauts to the Moon, to establish a long-term presence on the Moon and to gain experience in the unhospitable environment of space in preparation for the eventual journey to Mars. In 2010, the Lunabotics competition was challenges Universities to develop a robot to autonomously mine the icy regolith beneath the Moon's surface. This icy regolith would then be processed to create water which doesn't require transport from Earth. 
 
-Give an overall Summary of the team, and include the lessons learned from last year.
+The competition is invite only based on the preformance in the NASA Minds competition
 
 
 <div align="center">
@@ -60,28 +60,16 @@ Below are examples of Assembly drawings I created in SolidWorks.
 ## Beam Deflection and Modeling
  -->
 
-
-## Circuit Design & Software
-
-
-## Data Collection
-
-Overview AI Training
-
-## Results
+<!-- ## Results
 
 Give the stats of the robot
 
-## Conclusion
+We placed 13th overall in the Robotic Mining Competion.  -->
 
-We placed 13th overall in the Robotic Mining Competion. 
+## References
 
-<!-- ## References
-[1] Adafruit.com. Short Flex Sensor [ID#1070](https://www.adafruit.com/product/1070#technical-details)
+[1] NASA.gov. [Luanbotics Challenge](https://www.nasa.gov/learning-resources/lunabotics-challenge/)
 
-[2] Adafruit.com. [BNO055 Absolute Orientation Sensor](https://www.adafruit.com/product/2472)
-
-[3] [https://www.tensorflow.org/lite](https://www.tensorflow.org/lite)
+[2] NASA.gov. [NASA MINDS](https://www.nasa.gov/learning-resources/minority-university-research-education-project/nasa-minds/)
 
 
- -->
