@@ -13,7 +13,7 @@ I'm passionate about robotics and controls, with a knack for solving complex cha
 I prioritize a strong foundation in systems integration, product development, and data-driven problem solving. 
 I received my **B.S. in Mechanical Engineering** from the New Mexico Institute of Mining and Technology. My experience spans aerospace, manufacturing, and atmospheric research—where I’ve applied engineering principles to tackle complex, real-world challenges. At Boeing, I contributed to the certification of safety-critical systems and developed a secure RFID-based baggage scanning prototype aimed at improving operational efficiency. I’ve also designed manufacturing tools at Honeywell, supported hybrid learning environments in higher education, and conducted climate data analysis at NASA JPL. 
 
-With hands-on expertise in SolidWorks, Python, and MATLAB, as well as being FE Certified, I bring both technical rigor and a continuous improvement mindset to every project. Whether optimizing code for satellite data analysis or managing corrective actions across teams, I take pride in blending engineering precision with practical innovation.
+With hands-on expertise in SolidWorks, Python, and MATLAB, as well as being FE Certified, I bring both technical rigor and a mindset of continuous improvement to every project. Whether optimizing code for satellite data analysis or managing corrective actions across crossfunctional teams, I take pride in blending engineering precision with practical innovation.
 
 
 <p>&nbsp;</p>
