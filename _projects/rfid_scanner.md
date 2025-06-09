@@ -13,17 +13,24 @@ order_number: 10
 </div>
 
 
+I developed a prototype RFID baggage scanner and test stand. I wrote a  routine to run an RFID scanner and automatically update a website showing the scanned bags and their location and time scanned. 
+
 
 ## Overall Summary
 
-Lost baggage is a persistent cost to airline companies. In 2023 alone, airline companies mishandled 485.9 million bags[1]. For most airline companies, baggage is manually scanned.
 
-Delta has already implemented RFID tags in their baggage. As part of an incentive to airline companies, Boeing funded the exploratory the SMART Cargo System which aimed to provide an optional and attachable tool to scan baggage entering and leaving the plane then display the baggage information to a user interface.
+Lost baggage is a persistent cost to airline companies. In 2023 alone, airline companies mishandled 485.9 million bags[1]. For most airline companies, baggage is manually scanned. This can create costly inefficiencies, misscanning, and lost baggage. One solution to simplify baggage loading/unloading is using RFID baggage tags. Delta airlines is currently the only airline company to implement this upgrade. 
+
+
+As part of an incentive to airline companies, Boeing funded the exploratory SMART Cargo System which aimed to provide an optional and attachable tool to scan baggage entering and leaving the plane then display the baggage information to a user interface.
+
 
 ## General Overview
 
-This project developed a detachable RFID-based baggage scanning prototype aimed to reduce costs related to baggage mishandling and aircraft turn time. 
+
+This project developed a detachable RFID-based baggage scanning prototype aimed to reduce costs related to baggage mishandling and aircraft turn time.
  
+
 
 
 
