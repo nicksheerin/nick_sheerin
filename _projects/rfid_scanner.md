@@ -12,6 +12,8 @@ order_number: 10
 <img src="../../images/projects/rfid_scanner/rfid-overview.png">
 </div>
 
+
+
 ## Overall Summary
 
 Lost baggage is a persistent cost to airline companies. In 2023 alone, airline companies mishandled 485.9 million bags[1]. For most airline companies, baggage is manually scanned.
