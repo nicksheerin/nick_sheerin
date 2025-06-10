@@ -20,5 +20,6 @@ With hands-on expertise in SolidWorks, Python, and MATLAB, as well as being FE C
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-<q>**The mindset isn’t about seeking a result — it’s more about the process of getting to that result. It’s about the journey and the approach. It’s a way of life. I do think that it’s important, in all endeavors, to have that mentality!**</q> &#8211; Kobe Bryant
+<!-- <q>**The mindset isn’t about seeking a result — it’s more about the process of getting to that result. It’s about the journey and the approach. It’s a way of life. I do think that it’s important, in all endeavors, to have that mentality!**</q> &#8211; Kobe Bryant -->
 
+<q>**The difference between those who adapt and those who fail is the ability to feel empowered by the challenges they face.**</q> &#8211;  Arnold Schwarzenegger
